@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Wellness Global Platform</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body>
+
+     <header>
+    <nav>
+        <div class="All-container">
+
+            <div class="Logo">
+                <a href="index.html"><i class="fas fa-hospital"></i>Health & Wellness</a>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button>🔍</button>
+            </div>
+
+            <!-- ===== HAMBURGER MENU (Mobile/Tablet အတွက်) ===== -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Features.html">Features</a></li>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <li><a href="Chat Massage.html">Chat Massage</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Enterprise.html">Enterprise</a></li>
+                <li><a href="Food analysis.html">Food Analysis</a></li>
+            </ul>
+
+            <div class="both-container">
+                <div class="dark-light">
+                    <a href="#"><i class="fas fa-moon"></i></a>
+                </div>
+                <div class="user-action">
+                    <a href="Cart.html" class="cart">
+                        🛒 <span class="cart-count">99+</span>
+                    </a>
+                    <a href="Login.html" class="login-btn">Login</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section id="dashboard-section">
+            <div class="dashboard-card">
+                <!-- header ------------------- -->
+                <div class="header">
+                    <div class="title">
+                        <h2>Health Dashboard</h2>
+                        <p>Track your health progress and metrics in real-time</p>
+                    </div>
+                    <!-- left ---------------------------- -->
+                    <div class="health-check">
+                        <div class="left">
+
+                            <div class="badge">
+                                <i class="fas fa-clock"></i>Live
+                            </div>
+
+
+                            <!-- Smart Watch Status-------------------- -->
+                            <div class="device-status">
+                                <div class="device-container">
+                                    <div class="device-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+
+                                    <div class="device-info">
+                                        <h3>Smart Watch</h3>
+                                        <span class="status-offline">
+                                            <i class="fas fa-circle"></i>Disconnected
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- Description -->
+                                <p class="stats">
+                                    Connect your smartwatch to sync real-time health data and get personalized insights
+                                </p>
+
+                                <div class="device-action">
+                                    <a href="#" class="connect-btn">
+                                        <i class="fas fa-link"></i>Connect Smart Watch
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- right------------------------ -->
+                        <div class="right">
+                            <img src="img/health project  smart watch-img.jpg" width="300px" height="400px" alt="">
+                        </div>
+                    </div>
+
+                    <!-- stats -->
+                    <h1>Today's Health Metrics</h1>
+                    <div class="health-icon">
+                        <!-- 1 -->
+                        <div class="stat-item">
+                            <div class="icon">
+                                <i class="fas fa-walking"></i>
+                            </div>
+                            <span class="label">Steps Today</span>
+                            <span class="number">7,852</span>
+                        </div>
+                        <!-- 2 -->
+                        <div class="stat-item">
+                            <div class="icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <span class="label">Calories Burned</span>
+                            <span class="number">1,450</span>
+                        </div>
+                        <!-- 2 -->
+                        <div class="stat-item">
+                            <div class="icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <span class="label">Heart Rate (bpm)</span>
+                            <span class="number">120</span>
+                        </div>
+                        <!-- 3 -->
+                        <div class="stat-item">
+                            <div class="icon">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <span class="label">Sleep</span>
+                            <span class="number">8h 32m</span>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+         <section id="table-section">
+            <div class="control-3table">
+                <div class="table1-container">
+                    <h2><i class="fas fa-chart-line"></i> Weekly Activity & Sleep </h2>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Weekday</th>
+                                <th>Weekly Activity</th>
+                                <th>Sleep Quality</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Mon</td>
+                                <td>6500</td>
+                                <td>7.2 ⭐</td>
+                            </tr>
+                            <tr>
+                                <td>Tue</td>
+                                <td>7800</td>
+                                <td>6.5</td>
+                            </tr>
+                            <tr>
+                                <td>Wed</td>
+                                <td>7400</td>
+                                <td>6.0</td>
+                            </tr>
+                            <tr>
+                                <td>Thu</td>
+                                <td>9800</td>
+                                <td>6.8</td>
+                            </tr>
+                            <tr>
+                                <td>Fri</td>
+                                <td>9800</td>
+                                <td>6.0</td>
+                            </tr>
+                            <tr>
+                                <td>Sat</td>
+                                <td>7500</td>
+                                <td>5.5</td>
+                            </tr>
+                            <tr>
+                                <td>Sun</td>
+                                <td>4800</td>
+                                <td>4.5</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table2-container">
+                    <div class="nutrition-card">
+                        <h2><i class="fas fa-utensils"></i>Nutrition Intake</h2>
+
+                        <!-- protein -->
+                        <div class="nutrient">
+                            <div class="nutrient-header">
+                                <span class="nutrient-label"><i class="fas fa-drumstick-bite"></i>Protein</span>
+                                <span class="nutrient-value">60g</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progress-protein" style="width: 60%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- carbs -->
+                        <div class="nutrient">
+                            <div class="nutrient-header">
+                                <span class="nutrient-label"><i class="fas fa-bread-slice"></i>Carbs</span>
+                                <span class="nutrient-value">45g</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progress-carbs" style="width: 45%;"></div>
+                            </div>
+                        </div>
+
+                        <!-- fats  -->
+                        <div class="nutrient">
+                            <div class="nutrient-header">
+                                <span class="nutrient-label"><i class="fas fa-cheese"></i>Fats</span>
+                                <span class="nutrient-value">30g</span>
+                            </div>
+
+                            <div class="progress-bar">
+                                <div class="progress-fats" style="width: 30%;"></div>
+                            </div>
+                        </div>
+
+
+                        <!-- scale ---------------------------- -->
+                        <div class="scale">
+                            <span>0</span>
+                            <span>15</span>
+                            <span>30</span>
+                            <span>45</span>
+                            <span>60</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- weight card ----------------------------------------- -->
+                <div class="weight-card">
+                    <div class="weight-header">
+                        <h2><i class="fas fa-weight-scale"></i>Weight Progress</h2>
+                        <span class="badge">📉 -2.3 kg this month</span>
+                    </div>
+
+                    <div class="weight-body">
+                        <span class="weight-number">68.5</span>
+                        <span class="weight-unit">Kg</span>
+                    </div>
+
+                    <div class="weight-footer">
+                        <span class="change-negative">
+                            <i class="fas fa-arrow-down"></i>-2.3 kg this month
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+
+                <!-- brand  -->
+                <div class="footer-brand">
+                    <i class="fas fa-hospital"></i>
+                    <h2>Health & Wellness</h2>
+                    <p>IT-powered health platforms transforming lives globally</p>
+                </div>
+
+                <!-- links -->
+
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+
+                            <li><a href="#"><i class="fab fa-twitter"></i>Facebook</a></li>
+
+                            <li><a href="#"><i class="fab fa-twitter"></i>Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!-- Botton ===================== -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Health &amp; Wellness Global. All rights reserved.</p>
+                <p class="disclaimer">
+                    ⚕️ Medical Disclaimer: This platform provides general health information only. Always consult
+                    healthcare professionals for medical advice.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+    </html>

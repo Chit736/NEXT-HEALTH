@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Wellness Global Platform</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<body>
+
+     <header>
+    <nav>
+        <div class="All-container">
+
+            <div class="Logo">
+                <a href="index.html"><i class="fas fa-hospital"></i>Health & Wellness</a>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button>🔍</button>
+            </div>
+
+            <!-- ===== HAMBURGER MENU (Mobile/Tablet အတွက်) ===== -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Features.html">Features</a></li>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <li><a href="Chat Massage.html">Chat Massage</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li><a href="Enterprise.html">Enterprise</a></li>
+                <li><a href="Food analysis.html">Food Analysis</a></li>
+            </ul>
+
+            <div class="both-container">
+                <div class="dark-light">
+                    <a href="#"><i class="fas fa-moon"></i></a>
+                </div>
+                <div class="user-action">
+                    <a href="Cart.html" class="cart">
+                        🛒 <span class="cart-count">99+</span>
+                    </a>
+                    <a href="Login.html" class="login-btn">Login</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section id="chat-section">
+            <div class="chat-card">
+
+                <!-- header  -->
+                <div class="chat-header">
+                    <div class="header-left">
+                        <i class="fas fa-robot"></i>
+                        <div>
+                            <h2>IT Health Advisor</h2>
+                            <span class="status"><i class="fas fa-circle"></i> Online</span>
+                        </div>
+                    </div>
+
+                    <div class="header-right">
+                    </div>
+                </div>
+                <div class="massage-box">
+                    <!-- left -------------------------- -->
+                    <div class="left-massage">
+                        <div class="quick-advice">
+                            <i class="fas fa-bolt"></i>
+                            <span>Chat with IT Advisor</span>
+                        </div>
+
+                        <!-- chat massage -------------- -->
+                        <div class="chat-massage">
+                            <div class="massage-bot">
+                                <div class="avatar"><i class="fas fa-robot"></i></div>
+                                <div class="bubble">
+                                    <p>Hello! I'm your IT Health Advisor. I can help you with health, exercise,
+                                        nutrition,
+                                        sleep, and lifestyle question. How can I assists you today?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- input area ------------------- -->
+                        <div class="chat-input">
+                            <input type="text" placeholder="Ask your health question...">
+                            <i class="fas fa-paper-plane"></i>
+                            <i class="fas fa-trash"></i>
+                        </div>
+                    </div>
+
+                    <!-- right -------------------------- -->
+                    <div class="right-massage">
+                        <div class="advice-massage">
+                            <h1>Quick Health Advice</h1>
+                            <p>Select category and information type</p>
+                            <!-- dropdowns------------ -->
+                            <div class="dropdown-group">
+                                <div class="dropdown">
+                                    <label>Select Health Category</label><br>
+                                    <select>
+                                        <option>Choose a category...</option>
+                                        <option>Nutrition</option>
+                                        <option>Exercise</option>
+                                        <option>Sleep</option>
+                                        <option>Mental Health</option>
+                                    </select>
+                                </div>
+
+                                <div class="dropdown">
+                                    <label>Select Information Type</label><br>
+                                    <select>
+                                        <option>Choose information type...</option>
+                                        <option>Tips & Advice</option>
+                                        <option>Statistics</option>
+                                        <option>Research</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Get-It">
+                            <button>Get IT Advice</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+
+        <!-- Food Analysis --============================================1 -->
+        <section id="food-analysis">
+            <div class="container">
+
+                <!-- Badge  -->
+                <div class="badge">🆕 NEW FEATURE</div>
+
+                <!-- heading  -->
+                <h2>IT Food Analysis</h2>
+                <p class="subtitle">Take a photo of your food and get instant nutritional analysis</p>
+                <div class="check-food-result">
+                    <!-- Upload Area  -->
+                    <div class="upload-area">
+                        <div class="upload-box">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <h3>Upload Food Photo</h3>
+                            <p>Click to upload food photo or drag & drop</p>
+                            <button class="upload-btn"><i class="fas fa-folder-open"></i><br>
+                                <p>Click to upload or drag and
+                                    drop<br> PNG, JPG up to 10MB</p>
+                            </button><br>
+
+                            <p>OR USE YOUR CAMERA</p>
+                            <div class="camera-check">
+                                <button class="camera"><i class="fas fa-camera"></i>Start Camera</button>
+                                <button class="sample">Use Sample</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analysis Results  -->
+
+                    <div class="results">
+                        <div class="result-box">
+                            <i class="fas fa-chart-pie"></i>
+                            <h1>Analysis Results</h1>
+                            <p>Upload a food photo to see detailed nutritional analysis</p>
+                            <button class="sample-btn">Next Check Food Image</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+
+                <!-- brand  -->
+                <div class="footer-brand">
+                    <i class="fas fa-hospital"></i>
+                    <h2>Health & Wellness</h2>
+                    <p>IT-powered health platforms transforming lives globally</p>
+                </div>
+
+                <!-- links -->
+
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+
+                            <li><a href="#"><i class="fab fa-twitter"></i>Facebook</a></li>
+
+                            <li><a href="#"><i class="fab fa-twitter"></i>Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!-- Botton ===================== -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Health &amp; Wellness Global. All rights reserved.</p>
+                <p class="disclaimer">
+                    ⚕️ Medical Disclaimer: This platform provides general health information only. Always consult
+                    healthcare professionals for medical advice.
+                </p>
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>
